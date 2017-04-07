@@ -1,3 +1,4 @@
+![Parky Logo](/app/webroot/parky_logo_noshadow.png)
 Parky
 =====
 

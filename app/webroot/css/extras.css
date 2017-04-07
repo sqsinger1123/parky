@@ -1,0 +1,113 @@
+/*=============================
+ ******************************
+ The ultimate CSS utility file.
+ Authored by Giovanni Perez
+ 
+ 2012 Rokk3r Labs 
+ ******************************
+ ============================*/
+
+/* = UT1 - Float Classes = */
+.fr{float:right !important;}
+.fl{float:left !important;}
+.clear {clear:both;height:0px;}
+
+/* = UT2 - Display Classes = */
+.dblock {display:block !important;}
+.dnone {display:none;}
+.dinline {display:inline-block;}
+
+/* = UT3 - Positioning Classes = */
+.pabsolute {position:absolute;}
+.prelative {position:relative;}
+.pfixed {position:fixed;}
+
+/* = UT4 - Padding Classes = */
+.p5 {padding:5px;}
+.p10 {padding:10px;}
+.p15 {padding:15px;}
+.p20 {padding:20px;}
+
+.pt5 { padding-top: 5px;}
+.pt10 { padding-top: 10px;}
+.pt15 { padding-top: 15px;}
+.pt20 { padding-top: 20px;}
+
+.pr5 { padding-right: 5px;}
+.pr10 { padding-right: 10px;}
+.pr15 { padding-right: 15px;}
+.pr20 { padding-right: 20px;}
+
+.pl5 { padding-left: 5px;}
+.pl10 { padding-left: 10px;}
+.pl15 { padding-left: 15px;}
+.pl20 { padding-left: 20px;}
+
+.pb5 {padding-bottom:5px;}
+.pb10 {padding-bottom:10px;}
+.pb15 {padding_bottom:15px;}
+.pb20 {padding-bottom:20px;}
+
+.npb{padding-bottom:0 !important;}
+
+/* = Margin Classes = */
+.m0{margin:0px;}
+.m5{margin:5px;}
+.m10 {margin:10px;}
+.m15 {margin:15px;}
+.m20 {margin:20px;}
+.mt5 {margin-top:5px;}
+.mt10 {margin-top:10px;}
+.mt15{margin-top:15px;}
+.mt20 {margin-top:20px;}
+.mt25 {margin-top:25px;}
+.mt30{margin-top:30px;}
+.mt35 {margin-top:35px;}
+.mt40 {margin-top:40px;}
+.mt45 {margin-top:45px;}
+
+.mr5{margin-right:5px;}
+.mr10{margin-right:10px;}
+.mr15{margin-right:15px;}
+.mr20{margin-right:20px;}
+
+
+.ml5{margin-left:5px;}
+.ml10{margin-left:10px;}
+.ml15{margin-left:15px;}
+.ml20 {margin-left:20px;}
+.mb5 {margin-bottom:5px;}
+.mb10 {margin-bottom:10px;}
+.mb15{margin-bottom:15px;}
+.mb20 {margin-bottom:20px;}
+.mb15{margin-bottom:15px;}
+.mb20 {margin-bottom:20px;}
+.mb25{margin-bottom:25px;}
+.mb30{margin-bottom:30px;}
+.mb35 {margin-bottom:35px;}
+
+.nmb{margin-bottom:0;}
+
+/* = Text Alignment = */
+.tar {text-align:right;}
+.tal {text-align:left;}
+.tac {text-align:center;}
+
+.ovisible {overflow:visible;}
+.ohidden {overflow:hidden;}
+
+
+
+@media (max-width: 979px) {
+	body {
+		padding-top: 0px !important;
+	}
+}
+
+form {
+	margin: 0px;
+}
+
+.spacer {
+    margin-top: 40px; /* define margin as you see fit */
+}

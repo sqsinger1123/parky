@@ -1,0 +1,56 @@
+
+      <form>
+        <div class="well">
+
+            <h3>Enter New Credit Card Information</h3>
+            <br/>
+            <div class="row-fluid">
+			  <div class="control-group">
+				<div class="span6">
+					<label>First Name</label>
+					<input name="first_name" type="text" class="span12">
+				  </div>
+				  <div class="span6">
+					<label>Last Name</label>
+					<input name="last_name" type="text" class="span12">
+				  </div>
+			  </div>
+    
+			   <div class="control-group">
+				<div class="span6">
+					<label>Credit Card Type</label>
+					 <select class="span12" id="cctype" name="cctype">
+					<option>Select a Type</option>
+				  <option value="Visa">Visa</option>
+				  <option value="MasterCard">Mastercard</option>
+				  <option value="AmericanExpress">American Express</option>
+				  <option value="Other">Other</option>
+				</select>
+			  </div>
+			  <div class="span6">
+				<label>Credit Card Number</label>
+					<input name="ccnumber" type="text" class="span12">
+			  </div>
+            </div>
+      <div class="control-group">
+        <div class="span6">
+          <div class="span6">
+              <label>CCV Number</label>
+              <input name="ccvnumber" class="span12" type="text">
+            </div>
+            <div class="span6">
+              <label>Expiration Date</label>
+              <div class="span12">
+                <input name="expiration_month" placeholder="MM" maxlength="2" class="span5" type="text">
+                <input name="expiration_year" placeholder="YYYY" maxlength="4" class="span5" type="text">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="well">
+          <button type="submit" class="btn btn-primary" onclick="window.location='/browse/thankyou';">Submit</button> 
+          <input type="reset" class="btn" value="Reset"> 
+        </div>
+      </form>
+    </div>

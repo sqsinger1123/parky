@@ -1,0 +1,868 @@
+@font-face {
+    font-family: 'coolveticaregular';
+    src: url('coolvetica_rg-webfont.eot');
+    src: url('coolvetica_rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('coolvetica_rg-webfont.woff') format('woff'),
+         url('coolvetica_rg-webfont.ttf') format('truetype'),
+         url('coolvetica_rg-webfont.svg#coolveticaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body,html{
+  height:100%;
+}
+
+  .varwidth1020{
+    width:10%;
+  }
+
+.alert {
+  margin: 5px !important;
+}
+.lead {
+  font-family: 'coolveticaregular', Helvetica;
+  font-size: 20px;
+  line-height: 27px;
+}
+.landingpage {
+  background:black;
+  color:white;
+}
+.masthead{
+  padding: 70px 0 80px;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.masthead h1 {
+  font-size: 80px;
+  line-height: 1;
+  letter-spacing: -2px;
+}
+
+.masthead p {
+font-size: 30px;
+font-weight: 200;
+line-height: 1.25;
+}
+
+.filtermenu p{
+
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 1.25;
+
+
+}
+
+.masthead img {
+width:300px;
+}
+
+.jumbotron {
+  position: relative;
+  padding: 40px 0;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+  background: #020031;
+  background: -moz-linear-gradient(45deg, #5984ce 0%, #003082 100%);
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#5984ce), color-stop(100%,#003082));
+  background: -webkit-linear-gradient(45deg, #5984ce 0%,#003082 100%);
+  background: -o-linear-gradient(45deg, #5984ce 0%,#003082 100%);
+  background: -ms-linear-gradient(45deg, #5984ce 0%,#003082 100%);
+  background: linear-gradient(45deg, #003082 0%,#5984ce 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5984ce', endColorstr='#003082',GradientType=1 );
+  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+  -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+  box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+  min-height:100%
+}
+    @media all {
+        .emptyparky {
+        background: #bbbbbb !important;
+      }
+
+      .layer {
+        opacity:0.2 !important;
+
+      }
+    }
+    .input-big { 
+      height: 50px !important;
+      font-size: 20px !important;
+      text-align: center !important;
+      padding-top: 10px !important;
+
+    }
+
+.input-medium-big { 
+      height: 40px !important;
+      font-size: 15px !important;
+      text-align: center !important;
+      padding-top: 5px !important;
+
+    }
+
+    .varwidth1020 {
+      width:10%;
+    }
+
+    /* Generalized CSS for overall display
+    --------------------------- */
+    
+    select { /* Saves headaches lining up cross-browser */
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    /* Customized CSS for Tables
+    --------------------------- */
+
+    table {
+      margin:5px;
+    }
+    table td {
+      margin:5px;
+    }
+    table.distinctive {
+      border:2px;
+    }
+    table.distinctive td {
+      border:2px;
+    }
+
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+    }
+
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+    }
+
+    .carousel .item {
+      height: 250px;
+    }
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 250px;
+    }
+
+    .carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 550px;
+      padding: 0 20px;
+      margin-top: 50px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+
+
+
+    /* MARKETING CONTENT
+    -------------------------------------------------- */
+
+    /* Center align the text within the three columns below the carousel */
+    .marketing .span4 {
+      text-align: center;
+    }
+    .marketing h2 {
+      font-weight: normal;
+    }
+    .marketing .span4 p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+
+    /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+
+      .carousel .item {
+        height: 250px;
+      }
+      .carousel img {
+      
+        max-width:100%; 
+        min-height:100%; 
+        width:auto; 
+        height:auto;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+
+
+    @media (max-width: 767px) {
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .container {
+
+      }
+      .carousel .item {
+        height: 250px;
+      }
+      .carousel img {
+        height: 250px;
+      }
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 50px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+      .varwidth1020 {
+        width:10%;
+      }
+
+    }
+@media all {
+    .navbar-inner {
+
+      padding: 0px 20px;
+      background-color: #f0f0f0;
+      background: -webkit-linear-gradient(top, #fff 0%, #f9f9f9 49%, #f2f2f2 51%, #f0f0f0 100%);
+
+/*
+        border:0px !important;
+        padding: 0px !important;
+        background: #22509f !important;
+        background: -moz-linear-gradient(top, #FFC780 0%, #FFE3BF 100%) !important;
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFC780), color-stop(100%,#FFE3BF)) !important;
+        background: -webkit-linear-gradient(top, #FFC780 0%,#FFE3BF 100%) !important;
+        background: -o-linear-gradient(top, #FFC780 0%,#FFE3BF 100%) !important;
+        background: -ms-linear-gradient(top, #FFC780 0%,#FFE3BF 100%) !important;
+        background: linear-gradient(to bottom, #FFC780 0%,#FFE3BF 100%) !important;
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFC780', endColorstr='#FFE3BF',GradientType=0 ) !important;
+        border-bottom: 0 !important;
+        -webkit-box-shadow: 0px 1px 5px 1px #888!important;
+        box-shadow: 0px 1px 5px 1px #888!important;
+
+
+        background: #FFC780 !important;
+        background: linear-gradient(to bottom, #FFC780 0%,#FFE3BF 100%) !important;
+          text-shadow: none !important;
+*/
+  }
+  .varwidth1020{
+    width:10%;
+  }
+  .navbar img, .head-logo {
+    height: 40px;
+    vertical-align: center;
+    margin: -10px 0px;
+    margin-right:2px;
+  }
+
+
+}
+
+.btn-navbar {
+  background:#666666 !important;
+}
+
+.btn-navbar:hover{
+  background:#333333 !important;
+}
+.navbar-fixed-top a {
+  text-decoration: none !important;
+  text-shadow: none !important;
+}
+
+
+.navbar-fixed-top li:hover {
+  color:#5b86cf;
+}
+
+.navbar-fixed-top li.active{
+  color:#5b86cf;
+/*  background: #FF8F00;
+  -webkit-box-shadow: inset 0px 0px 8px 1px #FF7780;
+    box-shadow: inset 0px 0px 8px 1px #FF7780;
+    text-shadow: none !important;*/
+}
+
+.navbar-fixed-top li.active a {
+
+  color:#5b86cf !important;
+  /*background: #FF8F00 !important;
+  color: white !important;
+  background-color: white;
+  text-shadow: none !important;*/
+
+}
+
+.navbar-fixed-top a:hover {
+  color: #5b86cf !important;
+/*  text-shadow: none !important;
+*/
+}
+
+
+.nav-collapse li:hover a:hover{
+  color: #5b86cf !important;
+
+
+ /*   background: #FF8F00 !important;
+  -webkit-box-shadow: inset 0px 0px 8px 1px #FF7780;
+    box-shadow: inset 0px 0px 8px 1px #FF7780;
+    text-shadow: none !important;*/
+}
+
+.navbar .dropdown-menu li a{
+    color: #5b86cf !important;
+
+
+/*  font-family: Verdana !important;
+  color: #00C5E7 !important;*/
+}
+
+
+
+header {
+/*      padding: 0px 0 !important;
+      border-radius: 0 !important;
+      -moz-border-radius: 0 !important;
+      -webkit-border-radius: 0 !important;*/
+      color: #fff !important;
+/*      margin-bottom: 10px;*/
+      display:block;
+
+      border: none;
+      -moz-border-radius: 0;
+      -webkit-border-radius: 0;
+      border-radius: 0;
+      -o-box-shadow: 0 1px 5px rgba(0,0,0,0.4),inset 0 -1px 6px rgba(255,255,255,0.2);
+      -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.4),inset 0 -1px 6px rgba(255,255,255,0.2);
+      -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.4),inset 0 -1px 6px rgba(255,255,255,0.2);
+      box-shadow: 0 1px 5px rgba(0,0,0,0.4),inset 0 -1px 6px rgba(255,255,255,0.2);
+      background: #5984ce;
+      background: -webkit-gradient(linear, center top, center bottom, from(#5984ce), to(#003082));
+      background: -moz-linear-gradient(top, #5984ce, #003082);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='aarrggbb(#5984ce)', endColorstr='aarrggbb(#003082)', GradientType=0);
+}
+
+.error-message{
+
+  color:#FF0000;
+}
+
+.container div.row div.row-fluid {
+  margin-bottom:5px;
+}
+
+
+.carousel-caption h1, .carousel-caption h2, .carousel-caption h3, .carousel-caption h4,
+.carousel-caption h5, .carousel-caption h6 {
+    text-shadow: 2px 2px black;
+}
+
+.parkyprice {
+  float:right;
+  padding-right: 15px;
+  color:#f8ae31;
+  /*text-shadow: 1px 1px 0px #222222;*/
+  font-style: bold;
+  font-size: 20px;
+}
+
+.profileabout {
+  background-color:#f9a61a !important;
+  border:none !important;
+  -moz-box-shadow:5px 5px 5px rgba(0,0,0,.1); 
+  -webkit-box-shadow:5px 5px 5px rgba(0,0,0,.1);
+  /*box-shadow: 5px 5px 10px rgba(0,0,0,.5); 10px is horizontal offset, 5px is vertical offset, 15px is blur radius*/
+}
+.profilevideo {
+  background-color:#ACF !important;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+}
+
+.profileparky {
+  margin-bottom: 5px;
+  font-size: 10pt;
+  font-weight: 200;
+  /*font-family: "Helvetica Nueve", Arial sans-serif;*/
+  color: #333333;
+  background-color: white;
+  position:relative;
+  line-height: 20px !important;
+  cursor:pointer;
+  /*
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;*/
+  border: 0.1em solid #C7C4C2;
+
+  height:124px;
+  -moz-box-shadow:5px 5px 5px rgba(0,0,0,.1); 
+  -webkit-box-shadow:5px 5px 5px rgba(0,0,0,.1);
+  /*box-shadow: 5px 5px 10px rgba(0,0,0,.5); 10px is horizontal offset, 5px is vertical offset, 15px is blur radius*/
+}
+
+.filtermenu {
+  margin-bottom: 10px;
+  font-size: 12pt;
+  font-weight: 200;
+  /*font-family: "Helvetica Nueve", Arial sans-serif;*/
+  color: #fff;
+  overflow:auto;
+  padding:10px;
+  background-color: #333333;
+  position:relative;
+  line-height: 30px !important;
+
+  display:block;
+
+  border: none;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -o-box-shadow: 0 0px 1px rgba(0,0,0,0.4),inset 0 -1px 6px rgba(255,255,255,0.2);
+  -moz-box-shadow: 0 0px 1px rgba(0,0,0,0.4),inset 0 -1px 6px rgba(255,255,255,0.2);
+  -webkit-box-shadow: 0 0px 1px rgba(0,0,0,0.4),inset 0 -1px 6px rgba(255,255,255,0.2);
+  box-shadow: 0 0px 1px rgba(0,0,0,0.4),inset 0 -1px 6px rgba(255,255,255,0.2);
+  background: #333;
+  background: -webkit-gradient(linear, center top, center bottom, from(#444), to(#222));
+  background: -moz-linear-gradient(top, #444, #222);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='aarrggbb(#444)', endColorstr='aarrggbb(#222)', GradientType=0);
+  
+}
+
+.orange {
+  color: #f9a61a !important;
+}
+
+button {
+  margin:2px;
+}
+.profileselecttime {
+  font-size: 12pt;
+  font-weight: 200;
+  /*font-family: "Helvetica Nueve", Arial sans-serif;*/
+  color: #fff;
+
+  background-color: #333333;
+  position:relative;
+  line-height: 30px !important;
+
+  display:block;
+
+  border: none;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -o-box-shadow: 0 0px 1px rgba(0,0,0,0.4),inset 0 -1px 6px rgba(255,255,255,0.2);
+  -moz-box-shadow: 0 0px 1px rgba(0,0,0,0.4),inset 0 -1px 6px rgba(255,255,255,0.2);
+  -webkit-box-shadow: 0 0px 1px rgba(0,0,0,0.4),inset 0 -1px 6px rgba(255,255,255,0.2);
+  box-shadow: 0 0px 1px rgba(0,0,0,0.4),inset 0 -1px 6px rgba(255,255,255,0.2);
+  background: #333;
+  background: -webkit-gradient(linear, center top, center bottom, from(#444), to(#222));
+  background: -moz-linear-gradient(top, #444, #222);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='aarrggbb(#444)', endColorstr='aarrggbb(#222)', GradientType=0);
+  padding: 20px;
+  overflow:auto;
+
+}
+
+.aligncenter{
+  text-align: center;
+}
+
+.selecttimedropdown {
+    float:left;
+    width:150px;
+    display:inline-block;
+    color: #fff;
+    font-style: bold;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.selecttimedropdown select {
+    width:150px;
+    display:inline-block;
+}
+
+
+.totalcost {
+  line-height: 40px;
+  margin-left: 180px;
+  color: #fff;
+  font-style: bold;
+  font-size: 20px;
+  /*overflow:auto;*/
+}
+
+.totalcost h4 {
+    color:#f9a61a;
+    font-size: 40px;
+}
+
+.profilemap {
+    border: 0.1em solid #C7C4C2;
+    margin:10px;
+    background: #fff;
+
+  -moz-box-shadow:5px 5px 5px rgba(0,0,0,.1); 
+  -webkit-box-shadow:5px 5px 5px rgba(0,0,0,.1);
+
+
+
+}
+
+.myreservations {
+    margin-bottom: 5px;
+  font-size: 10pt;
+  font-weight: 200;
+  /*font-family: "Helvetica Nueve", Arial sans-serif;*/
+  color: #333333;
+  background-color: white;
+  position:relative;
+  line-height: 20px !important;
+  overflow: auto;
+  /*
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;*/
+  border: 0.1em solid #C7C4C2;
+  -moz-box-shadow:5px 5px 5px rgba(0,0,0,.1); 
+  -webkit-box-shadow:5px 5px 5px rgba(0,0,0,.1);
+  /*box-shadow: 5px 5px 10px rgba(0,0,0,.5); 10px is horizontal offset, 5px is vertical offset, 15px is blur radius*/
+}
+
+.profile {
+  margin-bottom: 10px;
+  font-size: 10pt;
+  font-weight: 200;
+  /*font-family: "Helvetica Nueve", Arial sans-serif;*/
+  color: #333333;
+  background-color: white;
+  position:relative;
+  line-height: 20px !important;
+  
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border: 0.1em solid #C7C4C2;
+
+
+}
+.profile h2 {
+        text-shadow: horizontal-offset vertical-offset blur color;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+        color:#003082;
+}
+
+
+.profile_header {
+  top:0;
+  width:100%;
+  background-image: linear-gradient(bottom, rgb(238,238,238) 10%, rgb(255,255,255) 100%);
+  background-image: -o-linear-gradient(bottom, rgb(238,238,238) 10%, rgb(255,255,255) 100%);
+  background-image: -moz-linear-gradient(bottom, rgb(238,238,238) 10%, rgb(255,255,255) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgb(238,238,238) 10%, rgb(255,255,255) 100%);
+  background-image: -ms-linear-gradient(bottom, rgb(238,238,238) 10%, rgb(255,255,255) 100%);
+  
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.1, rgb(238,238,238)),
+    color-stop(1, rgb(255,255,255))
+  );
+
+  right:0;
+  -webkit-border-top-right-radius: 8px;
+  -moz-border-top-right-radius: 8px;
+  -webkit-border-top-left-radius: 8px;
+  -moz-border-top-left-radius:8px;
+        border-radius: 8px 8px 0px 0px;
+
+  border-top: 0.1em solid #C7C4C2;
+  border-right: 0.1em solid #C7C4C2;
+  border-left: 0.1em solid #C7C4C2;
+  
+  
+}
+
+.profile_header h2 {
+  margin: 0px;
+  padding-left: 10px;
+  font-size: medium;
+  font-weight: bold !important;
+  color: #333333;
+  font-weight: normal;
+}
+
+.profile_body {
+  width:100%;
+  right:0;
+  color:#333333;
+  overflow: hidden;
+  height:150px;
+}
+
+.padding {
+  padding-left: 15px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  padding-top: 20px;
+  color: #555 !important;
+  line-height: 25px !important;
+}
+
+
+.profile_footer {
+  color: #333333;
+  width:100%;
+  background:white;
+  line-height: 20px !important;
+}
+
+.profile_body_bottom {
+  width:100%;
+  right:0;
+  color:#AAA;
+
+}
+
+.profile_body img {
+  width: 100%;
+}
+
+.profileparky img {
+  border: 0.1em solid #C7C4C2;
+  padding:2px;
+  margin-right:10px;
+
+}
+
+.myreservations img{
+  border: 0.1em solid #C7C4C2;
+  padding:2px;
+  margin-right:10px;  
+  margin-bottom: 10px;
+}
+
+.myreservations h4 {
+  font-size: 15px;
+  color:#4984e8;
+  line-height: 23px !important;
+  padding:0px !important;
+  margin: 0px !important;
+
+}
+.profileparky h4 {
+  font-size: 15px;
+  color:#4984e8;
+  line-height: 23px !important;
+  padding:0px !important;
+  margin: 0px !important;
+
+}
+
+.fulldescription {
+  font-size: 10pt;
+  color: #555;
+  background:white;
+  line-height: 25px !important;
+  font-family: 'coolveticaregular', Helvetica, sans-serif;
+  font-weight: 200;
+
+
+}
+.parky{
+
+  padding-right: 5px;
+
+}
+
+div.btn-group[data-toggle=buttons-radio] input[type=radio] {
+  display:    block;
+  position:   absolute;
+  top:        0;
+  left:       0;
+  width:      100%;
+  height:     100%;
+  opacity:    hidden;
+  visibility: hidden;
+}
+
+
+@media (max-width: 767px) {
+    .profile_body img {
+      width: 100%;
+      height:100%;
+    }
+}
+
+@media (max-width: 979px) { 
+    body {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        width: 101%;
+        overflow-x: hidden;
+    }
+
+    .navbar-fixed-top {
+        margin-bottom: 0 !important;
+    }
+
+    .container {
+        padding: 0 20px !important;
+    }
+
+  }
+
+
+body {
+      background: #eeeeee;
+      padding-top: 40px;
+      font-family: "Helvetica Neue", Times, Arial, sans-serif;
+      font-size: 14px;
+      line-height: 20px;
+      font-family:'coolveticaregular',Helvetica,verdana,arial,sans-serif !important;
+}
+
+@media (max-width: 979px) {
+      body {
+        padding-top: 0px;
+  }
+}
+
+
+
+
+ html,
+      body {
+        height: 100%;
+        font-family:'coolveticaregular',Helvetica,verdana,arial,sans-serif !important;
+
+        /* The html and body elements cannot have any padding or margin. */
+      }
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px;
+      }
+      #footer {
+        background-color: #f5f5f5;
+      }
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+          font-size: 12px !important;
+        }
+      }
+
+      .container .credit {
+        margin: 20px 0;
+      }
+
+
+

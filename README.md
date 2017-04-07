@@ -1,6 +1,7 @@
-![Parky Logo](/app/webroot/parky_logo_noshadow.png)
 Parky
 =====
+
+![Parky Logo](/app/webroot/parky_logo_noshadow.png)
 
 Copyright 2013: by Samuel Singer, Eric Lu, and Annie Yang. All rights reserved.
 
